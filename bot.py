@@ -4,8 +4,8 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 from telegram.constants import ChatMemberStatus
 
-BOT_TOKEN = 8614020088:AAGCqe2wIIEKimwVzunUIE0JTL3UPzECAH0
-ESCROW_GROUP_ID =@escrow_only_usdt
+BOT_TOKEN = "8614020088:AAGCqe2wIIEKimwVzunUIE0JTL3UPzECAH0"
+ESCROW_GROUP_ID = "@escrow_only_usdt"
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
