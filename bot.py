@@ -4,9 +4,9 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 from telegram.constants import ChatMemberStatus
 
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "8614020088:AAGCqe2wIIEKimwVzunUIE0JTL3UPzECAH0"
 ESCROW_GROUP_ID = "@escrow_only_usdt"
-ADMIN_USERNAME = "@your_username"
+ADMIN_USERNAME = "@crypto_8099"
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
