@@ -15,9 +15,9 @@ from telegram.constants import ChatMemberStatus
 # CONFIG — YAHAN APNI VALUES DAALO
 # =========================
 
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "8614020088:AAGCqe2wIIEKimwVzunUIE0JTL3UPzECAH0"
 ESCROW_GROUP_ID = "@escrow_only_usdt"
-ADMIN_USERNAME = "@altaf80993"   # Apna Telegram username daalo (bina @ bhi chalega)
+ADMIN_USERNAME = "@crypto_8099"
 
 # =========================
 # LOGGING
