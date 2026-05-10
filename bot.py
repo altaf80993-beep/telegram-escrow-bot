@@ -71,7 +71,7 @@ def main():
     app.add_handler(CommandHandler("escrow", escrow_command))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, filter_messages))
     logger.info("Bot is LIVE now...")
-    app.run_polling(allowed_updates=Update.ALL_TYPES, drop_pending_updates=True)
+    app.run_polling()
 
 if __name__ == "__main__":
     main()
